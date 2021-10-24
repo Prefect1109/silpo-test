@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A5F28B5B97642AAF8727F05 /* Pods_Silpo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A6AD904DCF0587162B23C9 /* Pods_Silpo.framework */; };
+		FA34777227249F3B0004443F /* proxima-nova-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA34776D27249F3A0004443F /* proxima-nova-light.ttf */; };
+		FA34777327249F3B0004443F /* proxima-nova-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA34776E27249F3A0004443F /* proxima-nova-regular.ttf */; };
+		FA34777427249F3B0004443F /* proxima-nova-extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA34776F27249F3A0004443F /* proxima-nova-extrabold.ttf */; };
+		FA34777527249F3B0004443F /* proxima-nova-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA34777027249F3A0004443F /* proxima-nova-thin.ttf */; };
+		FA34777627249F3B0004443F /* proxima-nova-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA34777127249F3A0004443F /* proxima-nova-semibold.ttf */; };
+		FA3477792724E9C50004443F /* TestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3477782724E9C50004443F /* TestResponse.swift */; };
+		FADC51552724195C0089FC92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC51542724195C0089FC92 /* AppDelegate.swift */; };
+		FADC51572724195C0089FC92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC51562724195C0089FC92 /* SceneDelegate.swift */; };
+		FADC515C2724195C0089FC92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADC515A2724195C0089FC92 /* Main.storyboard */; };
+		FADC515E2724195E0089FC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADC515D2724195E0089FC92 /* Assets.xcassets */; };
+		FADC51612724195E0089FC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADC515F2724195E0089FC92 /* LaunchScreen.storyboard */; };
+		FADC5172272431830089FC92 /* BlockListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC5171272431830089FC92 /* BlockListVC.swift */; };
+		FADC5177272432D30089FC92 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC5176272432D30089FC92 /* Networking.swift */; };
+		FADC51792724360F0089FC92 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC51782724360F0089FC92 /* ProductVC.swift */; };
+		FADC517C272436D30089FC92 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC517B272436D30089FC92 /* Product.swift */; };
+		FADC517E272446FC0089FC92 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC517D272446FC0089FC92 /* CameraVC.swift */; };
+		FADC518027245F140089FC92 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADC517F27245F140089FC92 /* Colors.xcassets */; };
+		FADC51822724609E0089FC92 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC51812724609E0089FC92 /* TabBarController.swift */; };
+		FADC5184272463530089FC92 /* BlackListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC5183272463530089FC92 /* BlackListItem.swift */; };
+		FADC5187272465BA0089FC92 /* BlockListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC5185272465BA0089FC92 /* BlockListItemTableViewCell.swift */; };
+		FADC5188272465BA0089FC92 /* BlockListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADC5186272465BA0089FC92 /* BlockListItemTableViewCell.xib */; };
+		FADC518B272498E70089FC92 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC518A272498E70089FC92 /* PieChart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B2D01A9E9361AC3BAB7FA5A /* Pods-Silpo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Silpo.release.xcconfig"; path = "Target Support Files/Pods-Silpo/Pods-Silpo.release.xcconfig"; sourceTree = "<group>"; };
+		C6A6AD904DCF0587162B23C9 /* Pods_Silpo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Silpo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF0B85F0E4431CED2CCE983 /* Pods-Silpo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Silpo.debug.xcconfig"; path = "Target Support Files/Pods-Silpo/Pods-Silpo.debug.xcconfig"; sourceTree = "<group>"; };
+		FA34776D27249F3A0004443F /* proxima-nova-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proxima-nova-light.ttf"; sourceTree = "<group>"; };
+		FA34776E27249F3A0004443F /* proxima-nova-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proxima-nova-regular.ttf"; sourceTree = "<group>"; };
+		FA34776F27249F3A0004443F /* proxima-nova-extrabold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proxima-nova-extrabold.ttf"; sourceTree = "<group>"; };
+		FA34777027249F3A0004443F /* proxima-nova-thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proxima-nova-thin.ttf"; sourceTree = "<group>"; };
+		FA34777127249F3A0004443F /* proxima-nova-semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proxima-nova-semibold.ttf"; sourceTree = "<group>"; };
+		FA3477782724E9C50004443F /* TestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResponse.swift; sourceTree = "<group>"; };
+		FADC51512724195C0089FC92 /* Silpo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Silpo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADC51542724195C0089FC92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADC51562724195C0089FC92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FADC515B2724195C0089FC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADC515D2724195E0089FC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADC51602724195E0089FC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADC51622724195E0089FC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADC5171272431830089FC92 /* BlockListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockListVC.swift; sourceTree = "<group>"; };
+		FADC5176272432D30089FC92 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		FADC51782724360F0089FC92 /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
+		FADC517B272436D30089FC92 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		FADC517D272446FC0089FC92 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		FADC517F27245F140089FC92 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		FADC51812724609E0089FC92 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		FADC5183272463530089FC92 /* BlackListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackListItem.swift; sourceTree = "<group>"; };
+		FADC5185272465BA0089FC92 /* BlockListItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockListItemTableViewCell.swift; sourceTree = "<group>"; };
+		FADC5186272465BA0089FC92 /* BlockListItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlockListItemTableViewCell.xib; sourceTree = "<group>"; };
+		FADC518A272498E70089FC92 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADC514E2724195C0089FC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5F28B5B97642AAF8727F05 /* Pods_Silpo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69BB221B479E629DEBC8FECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6A6AD904DCF0587162B23C9 /* Pods_Silpo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		973FEF59194DB405E0146FF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAF0B85F0E4431CED2CCE983 /* Pods-Silpo.debug.xcconfig */,
+				2B2D01A9E9361AC3BAB7FA5A /* Pods-Silpo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA34777727249F3D0004443F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA34776F27249F3A0004443F /* proxima-nova-extrabold.ttf */,
+				FA34776D27249F3A0004443F /* proxima-nova-light.ttf */,
+				FA34776E27249F3A0004443F /* proxima-nova-regular.ttf */,
+				FA34777127249F3A0004443F /* proxima-nova-semibold.ttf */,
+				FA34777027249F3A0004443F /* proxima-nova-thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FADC51482724195C0089FC92 = {
+			isa = PBXGroup;
+			children = (
+				FADC51532724195C0089FC92 /* Silpo */,
+				FADC51522724195C0089FC92 /* Products */,
+				973FEF59194DB405E0146FF1 /* Pods */,
+				69BB221B479E629DEBC8FECF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FADC51522724195C0089FC92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADC51512724195C0089FC92 /* Silpo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADC51532724195C0089FC92 /* Silpo */ = {
+			isa = PBXGroup;
+			children = (
+				FADC517A272436C80089FC92 /* Model */,
+				FADC516A27241A980089FC92 /* Application */,
+				FADC5168272419710089FC92 /* UI */,
+				FADC5175272432C20089FC92 /* Networking */,
+				FADC516927241A8C0089FC92 /* Resources */,
+			);
+			path = Silpo;
+			sourceTree = "<group>";
+		};
+		FADC5168272419710089FC92 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FADC515A2724195C0089FC92 /* Main.storyboard */,
+				FADC5170272430F50089FC92 /* Compare */,
+				FADC516F272430ED0089FC92 /* Product */,
+				FADC516E272430400089FC92 /* Camera */,
+				FADC516B2724301D0089FC92 /* BlockList */,
+				FADC51812724609E0089FC92 /* TabBarController.swift */,
+				FADC518A272498E70089FC92 /* PieChart.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FADC516927241A8C0089FC92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA34777727249F3D0004443F /* Fonts */,
+				FADC51622724195E0089FC92 /* Info.plist */,
+				FADC515F2724195E0089FC92 /* LaunchScreen.storyboard */,
+				FADC515D2724195E0089FC92 /* Assets.xcassets */,
+				FADC517F27245F140089FC92 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FADC516A27241A980089FC92 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FADC51542724195C0089FC92 /* AppDelegate.swift */,
+				FADC51562724195C0089FC92 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FADC516B2724301D0089FC92 /* BlockList */ = {
+			isa = PBXGroup;
+			children = (
+				FADC5189272486C10089FC92 /* Cell */,
+				FADC5171272431830089FC92 /* BlockListVC.swift */,
+			);
+			path = BlockList;
+			sourceTree = "<group>";
+		};
+		FADC516E272430400089FC92 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				FADC517D272446FC0089FC92 /* CameraVC.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		FADC516F272430ED0089FC92 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				FADC51782724360F0089FC92 /* ProductVC.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		FADC5170272430F50089FC92 /* Compare */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Compare;
+			sourceTree = "<group>";
+		};
+		FADC5175272432C20089FC92 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FADC5176272432D30089FC92 /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FADC517A272436C80089FC92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FADC517B272436D30089FC92 /* Product.swift */,
+				FADC5183272463530089FC92 /* BlackListItem.swift */,
+				FA3477782724E9C50004443F /* TestResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FADC5189272486C10089FC92 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FADC5185272465BA0089FC92 /* BlockListItemTableViewCell.swift */,
+				FADC5186272465BA0089FC92 /* BlockListItemTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADC51502724195C0089FC92 /* Silpo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADC51652724195E0089FC92 /* Build configuration list for PBXNativeTarget "Silpo" */;
+			buildPhases = (
+				FE070A60BEC29E5EBB8F25CE /* [CP] Check Pods Manifest.lock */,
+				FADC514D2724195C0089FC92 /* Sources */,
+				FADC514E2724195C0089FC92 /* Frameworks */,
+				FADC514F2724195C0089FC92 /* Resources */,
+				3CBC695EBE8142F643D9F7A5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Silpo;
+			productName = Silpo;
+			productReference = FADC51512724195C0089FC92 /* Silpo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADC51492724195C0089FC92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FADC51502724195C0089FC92 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = FADC514C2724195C0089FC92 /* Build configuration list for PBXProject "Silpo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADC51482724195C0089FC92;
+			productRefGroup = FADC51522724195C0089FC92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADC51502724195C0089FC92 /* Silpo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADC514F2724195C0089FC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA34777327249F3B0004443F /* proxima-nova-regular.ttf in Resources */,
+				FA34777427249F3B0004443F /* proxima-nova-extrabold.ttf in Resources */,
+				FA34777627249F3B0004443F /* proxima-nova-semibold.ttf in Resources */,
+				FA34777527249F3B0004443F /* proxima-nova-thin.ttf in Resources */,
+				FA34777227249F3B0004443F /* proxima-nova-light.ttf in Resources */,
+				FADC51612724195E0089FC92 /* LaunchScreen.storyboard in Resources */,
+				FADC5188272465BA0089FC92 /* BlockListItemTableViewCell.xib in Resources */,
+				FADC518027245F140089FC92 /* Colors.xcassets in Resources */,
+				FADC515E2724195E0089FC92 /* Assets.xcassets in Resources */,
+				FADC515C2724195C0089FC92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CBC695EBE8142F643D9F7A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Silpo/Pods-Silpo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Silpo/Pods-Silpo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Silpo/Pods-Silpo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE070A60BEC29E5EBB8F25CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Silpo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADC514D2724195C0089FC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADC5187272465BA0089FC92 /* BlockListItemTableViewCell.swift in Sources */,
+				FADC5172272431830089FC92 /* BlockListVC.swift in Sources */,
+				FADC51822724609E0089FC92 /* TabBarController.swift in Sources */,
+				FADC517C272436D30089FC92 /* Product.swift in Sources */,
+				FA3477792724E9C50004443F /* TestResponse.swift in Sources */,
+				FADC51792724360F0089FC92 /* ProductVC.swift in Sources */,
+				FADC518B272498E70089FC92 /* PieChart.swift in Sources */,
+				FADC517E272446FC0089FC92 /* CameraVC.swift in Sources */,
+				FADC5177272432D30089FC92 /* Networking.swift in Sources */,
+				FADC51552724195C0089FC92 /* AppDelegate.swift in Sources */,
+				FADC51572724195C0089FC92 /* SceneDelegate.swift in Sources */,
+				FADC5184272463530089FC92 /* BlackListItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FADC515A2724195C0089FC92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADC515B2724195C0089FC92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADC515F2724195E0089FC92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADC51602724195E0089FC92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADC51632724195E0089FC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADC51642724195E0089FC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADC51662724195E0089FC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAF0B85F0E4431CED2CCE983 /* Pods-Silpo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R45Q2DW4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Silpo/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silpo.testApp.Silpo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FADC51672724195E0089FC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2D01A9E9361AC3BAB7FA5A /* Pods-Silpo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R45Q2DW4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Silpo/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silpo.testApp.Silpo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADC514C2724195C0089FC92 /* Build configuration list for PBXProject "Silpo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADC51632724195E0089FC92 /* Debug */,
+				FADC51642724195E0089FC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADC51652724195E0089FC92 /* Build configuration list for PBXNativeTarget "Silpo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADC51662724195E0089FC92 /* Debug */,
+				FADC51672724195E0089FC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADC51492724195C0089FC92 /* Project object */;
+}
